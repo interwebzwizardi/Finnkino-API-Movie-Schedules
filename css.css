@@ -1,0 +1,200 @@
+body{
+  background-color: #fcba03;
+}
+
+
+/*PAGE STRUCTURE*/
+
+#backgroundContainer{
+  background-image: url("http://finnkinob2b.fi/globalassets/mediamyynti/fk_mediamyynti_hero_1920x480_blankko.jpg");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 270px;
+  width: auto;
+}
+
+#appContainer{
+  width: 1300px;
+	height: auto;
+  min-height: 100px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
+	margin-bottom: 15px;
+	background-image: url("");
+	background-repeat: repeat-y;
+  background-color: black;
+  border-radius: 18px;
+  box-shadow: 0 0 6px #888888;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #363636;
+  text-align: center;
+}
+
+#header{
+  height: 50px;
+  background-color: white;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+  border-bottom-style: solid;
+  border-color: white;
+
+}
+
+#elokuvatContainer{
+  height: auto;
+  width: auto;
+}
+
+#footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 27px;
+  background-color: #141414;
+  text-align: center;
+}
+
+/*PAGE ELEMENTS*/
+
+#dropMenu{
+  font-family: 'Bebas Neue', cursive;
+  font-size: 20px;
+  margin-top: 9px;
+  margin-right: 15px;
+  height: 36px;
+  width: 200px;
+  float: left;
+}
+
+#dateInput{
+  font-family: 'Bebas Neue', cursive;
+  font-size: 20px;
+  height: 32px;
+  width: 200px;
+  float: left;
+  margin-left: 15px;
+  margin-top: 9px;
+}
+
+#haeElokuviaBtn{
+  font-family: 'Bebas Neue', cursive;
+  font-size: 20px;
+  margin-left: 30px;
+  margin-top: 10px;
+  float: left;
+}
+
+.movieElement{
+  height: auto;
+  min-height: 350px;
+  width: 1150px;
+  margin: 20px;
+}
+
+#formDiv{
+  height:40px;
+  width: 400px;
+  padding-left: 500px;
+}
+
+.ostaLippujaBtn{
+  font-family: 'Bebas Neue', cursive;
+  font-size: 20px;
+  margin-left: 77px;
+  margin-right: 15px;
+  margin-top: 25px;
+  background-color: #fcba03;
+  border-color: #fcba03;
+  float:left;
+}
+
+.tietojaElokuvastaBtn{
+  font-family: 'Bebas Neue', cursive;
+  font-size: 20px;
+  margin-left: 15px;
+  margin-top: 25px;
+  background-color: #fcba03;
+  border-color: #fcba03;
+  float: left;
+}
+
+.thumbnail{
+  float:left;
+  margin: 20px;
+  width: 20%;
+  height: auto;
+}
+
+
+/*TEXT STYLES*/
+
+#pageTitle{
+  font-family: 'Bebas Neue', cursive;
+  text-align:center;
+  font-size: 90px;
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
+
+#headerValitseTeatteri{
+  font-family: 'Bebas Neue', cursive;
+  font-size: 22px;
+  padding-right: 15px;
+  padding-left: 240px;
+  float: left;
+  margin-top: 12px;
+}
+
+#headerValitsePVM{
+  font-family: 'Bebas Neue', cursive;
+  font-size: 22px;
+  padding-left: 15px;
+  float: left;
+  margin-top: 12px;
+}
+
+.movieTitle{
+  font-family: 'Bebas Neue', cursive;
+  font-size: 38px;
+  margin-top: 40px;
+  margin-bottom: 1px;
+  padding-top: 85px;
+  color: white;
+}
+
+.showStartTitle{
+  font-family: 'Bebas Neue', cursive;
+  font-size: 26px;
+  color: #fcba03;
+  margin-top: 1px;
+  margin-bottom: 1px;
+}
+
+.movieInfoP{
+  font-family: 'Bebas Neue', cursive;
+  color: white;
+  margin-top: 1px;
+}
+
+#footerText{
+  font-family: 'Bebas Neue', cursive;
+  color: white;
+  font-size: 11px;
+  opacity: 0.5;
+}
+
+/*HOVER ANIMATIONS*/
+
+.ostaLippujaBtn:hover, .tietojaElokuvastaBtn:hover{
+  background-color: #ffd000;
+}
+
+#haeElokuviaBtn:hover{
+  background-color: #fcba03;
+  border-color: black;
+  border-width: thin;
+}
