@@ -16,7 +16,7 @@ function haeElokuvat(){
   var slicedPVM = pvm.slice(8,10) + "." + pvm.slice(5,7) + "." + pvm.slice(0,4);
 
   //Luodaan muuttuja API:n URLia varten
-  var xmlURL = "http://www.finnkino.fi/xml/Schedule/?area=" + teatteriID + "&dt=" + slicedPVM;
+  var xmlURL = "https://www.finnkino.fi/xml/Schedule/?area=" + teatteriID + "&dt=" + slicedPVM;
 
   //AJAX-kysely
   var xmlhttp = new XMLHttpRequest();
